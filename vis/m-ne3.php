@@ -54,7 +54,7 @@ while ($row = @mysqli_fetch_array($resulti)) {
    $cont++;
 }
 
-//print_r($dir);
+//print_r($resulti);
   
 //echo $dir[0];
 //echo $dir[1];

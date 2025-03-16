@@ -21,60 +21,7 @@ FROM t_isla
 		LEFT JOIN t_sector ON t_isla.Idsector = t_sector.Id_sector
     WHERE t_isla.Isla LIKE '$isla'";
 
-
-if ($resulti = mysqli_query($conn, $sqlisla)) {
-
-
-
-    while ($rowi = mysqli_fetch_array($resulti)) {
-    
-    echo "
-
-
-
-
-<table>
-<tr>
-<td>
-<h1>Isla ".$isla."</h1></td><td><h1>Sector ".$rowi['Sector']."</h1>
-</td>
-</tr>
-<tr>
-<td><h2>Coord.X: ".$rowi['X']." </h2></td><td><h2>Coord.Y: ".$rowi['Y']."</h2>
-</tr>
-<tr><td>
-<h3>Nº de islas en el sector:</h3></td><td><h3>".$rowi['Numislas']."</h3>
-</td></tr>
-<tr><td>
-<h3>Comentarios del sector</h3>
-</td><td><blockquote>
-".$rowi['Comentarios_sector']."
-</blockquote>
-</td>
-<tr>
-<td>
-<h3>Comentarios de la isla</h3></td>
-<td><blockquote>
-".$rowi['Comentarios_isl']."
-</blockquote>
-</td>
-</tr>
-</table>
-<br>
-<hr>
-<br>
-    ";
-}
-
-    /* free result set */
-    mysqli_free_result($resulti);
-}
-
-
-
-
-
-
+$resulti = mysqli_query($conn, $sqlisla) ;
 
 $query = "SELECT
 t_ciudad.*,
@@ -91,9 +38,64 @@ FROM t_ciudad
 		LEFT JOIN t_alianza ON t_jugador.Idalianza = t_alianza.Id_alianza
         WHERE t_isla.Isla LIKE '$isla'";  
 
-if ($result = mysqli_query($conn, $query)) {
+
+$result = mysqli_query($conn, $query);
+
+//if ($resulti = mysqli_query($conn, $sqlisla)) {
 
 
+    while ($rowi = mysqli_fetch_array($resulti)) {
+    
+    echo "
+
+<table>
+<tr>
+<td>
+<h1>Isla ".$isla."</h1></td><td>  </td><td><h1>Sector ".$rowi['Sector']."</h1>
+</td>
+</tr>
+<tr>
+<td><h2>Coord.X: ".$rowi['X']." </h2></td><td>  </td><td><h2>Coord.Y: ".$rowi['Y']."</h2>
+</tr>
+<tr><td>
+<h3>Nº de islas en el sector:</h3></td><td>  </td><td><h3>".$rowi['Numislas']."</h3>
+</td></tr>
+<tr><td>
+<h3>Comentarios del sector</h3>
+</td><td>  </td><td><blockquote>
+".$rowi['Comentarios_sector']."
+</blockquote>
+</td>
+<tr>
+<td>
+<h3>Comentarios de la isla</h3></td>
+<td>  </td>
+<td><blockquote>
+".$rowi['Comentarios_isl']."
+</blockquote>
+</td>
+</tr>
+<tr>
+<td>Nª ciudades en isla</td>
+<td>  </td>
+<td></td>
+</tr>
+</table>
+<br>
+<hr>
+<br>
+    ";
+}
+
+    /* free result set */
+    mysqli_free_result($resulti);
+
+
+
+
+//if ($result = mysqli_query($conn, $query)) {
+$row_cnt = mysqli_num_rows($result);
+printf("El resultado tiene %d filas.\n", $row_cnt);
 
     while ($row = mysqli_fetch_array($result)) {
     
@@ -117,7 +119,7 @@ if ($result = mysqli_query($conn, $query)) {
 
     /* free result set */
     mysqli_free_result($result);
-}
+
 
 echo "</table>";
 
