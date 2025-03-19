@@ -8,8 +8,8 @@
 <body>
 <div id="page">
     <header id="header">
-    <h1>Alianza en Ikariam</h1>
-    <img src="ikatop.jpeg">
+    <a href="./" class="titulo"><h1>Alianza en Ikariam</h1></a><br>
+    <a href="https://lobby.ikariam.gameforge.com/es_ES/"><img src="ikatop.jpeg"></a>
     </header>
     <aside id="navi">
     <nav>

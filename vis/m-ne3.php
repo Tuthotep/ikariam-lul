@@ -309,11 +309,11 @@ while ($row = @mysqli_fetch_array($resulti)) {
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[134]; ?>"><?php echo $dir[134]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[135]; ?>"><?php echo $dir[135]; ?></a></td>
-<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[136]; ?>"><?php echo $dir[136]; ?></a></td>
-<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[137]; ?>"><?php echo $dir[137]; ?></a></td>
+<td class="working" width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[136]; ?>"><?php echo $dir[136]; ?></a></td>
+<td class="working" width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[137]; ?>"><?php echo $dir[137]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[138]; ?>"><?php echo $dir[138]; ?></a></td>
-<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[139]; ?>"><?php echo $dir[139]; ?></a></td>
+<td class="working" width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[138]; ?>"><?php echo $dir[138]; ?></a></td>
+<td class="done" width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[139]; ?>"><?php echo $dir[139]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold;color:chartreuse;font-size:large'>11</td>
@@ -333,7 +333,7 @@ while ($row = @mysqli_fetch_array($resulti)) {
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[83]; ?>"><?php echo $dir[83]; ?></a></td>
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[84]; ?>"><?php echo $dir[84]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[85]; ?>"><?php echo $dir[85]; ?></a></td>
+<td class="done" width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[85]; ?>"><?php echo $dir[85]; ?></a></td>
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[86]; ?>"><?php echo $dir[86]; ?></a></td>
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[44]; ?>"><?php echo $dir[44]; ?></a></td>
 <td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[42]; ?>"><?php echo $dir[42]; ?></a></td>
