@@ -6,7 +6,7 @@
 
 <body>
 
-<h3>Tabla Ciudades en la BD</h3>
+<h2>Tabla Ciudades en la BD</h2>
       <br>
 
 <table>
@@ -28,6 +28,9 @@ $conn;
 $query = "SELECT * FROM `t_ciudad` ORDER BY Ciudad";
 
 if ($result = mysqli_query($conn, $query)) {
+
+  $row_cnt = $result->num_rows;
+  echo "Total de ciudades mapeadas:$row_cnt<br><br>";
 
     /* fetch associative array */
     while ($row = mysqli_fetch_array($result)) {

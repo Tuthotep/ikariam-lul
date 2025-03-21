@@ -5,9 +5,6 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-
-
-
 </head>
 
 <body>
@@ -137,6 +134,8 @@ if ($result = mysqli_query($conn, $query)) {
 
 echo "</table>";
 /* close connection */
+
+
 mysqli_close($link);
 ?>
 

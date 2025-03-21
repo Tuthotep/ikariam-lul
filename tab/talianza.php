@@ -6,7 +6,7 @@
 
 <body>
 
-<h3>Tabla Alianzas en la BD</h3>
+<h2>Tabla Alianzas en la BD</h2>
       <br>
 <table>
 <tr>
@@ -28,6 +28,9 @@ include '../config.php';
 $query = "SELECT * FROM `t_alianza` ORDER BY Id_alianza";
 
 if ($result = mysqli_query($conn, $query)) {
+  
+  $row_cnt = $result->num_rows;
+  echo "Total de alianzas datadas:$row_cnt<br><br>";
 
     /* fetch associative array */
     while ($row = mysqli_fetch_array($result)) {

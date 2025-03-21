@@ -159,4 +159,6 @@ SELECT
 t_isla.Isla,t_materia.Materia
 FROM t_isla LEFT JOIN t_materia ON t_isla.Idmateria = t_materia.Id_materia
 WHERE Idsector = 12
+---------------------------------------------------------------------------------------------
+SELECT t_isla.Id_isla, t_isla.Isla FROM t_isla WHERE Idsector = 10 ORDER BY t_isla.Id_isla ASC
 =============================================================================================

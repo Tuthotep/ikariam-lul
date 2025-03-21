@@ -109,7 +109,7 @@ text-align: center;
 }
 
 
-table a:link, table a:visited {
+td a:link, td a:visited {
   background-color:#4F6F52;
   color: #ECE3CE;
   border: 2px solid;
@@ -119,7 +119,7 @@ table a:link, table a:visited {
   display: inline-block;
 }
 
-table a:hover, table a:active {
+td a:hover, td a:active {
   background-color:#739072;
   color: white;
   cursor: pointer;
@@ -127,12 +127,20 @@ table a:hover, table a:active {
 }
 
 
+.vacia {
+  background-color:red;
+}
+.nolul {
+  background-color:orange;
+}
 .working {
   background-color:yellow;
 }
-
 .done {
-  background-color:darkslategrey;
+  background-color:lightgreen;
+}
+.lul {
+  background-color:chartreuse ;
 }
 
 .titulo {

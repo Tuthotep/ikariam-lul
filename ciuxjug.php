@@ -7,20 +7,25 @@
 <h3>Ciudades del Jugador seleccionado.</h3>
 <br>
 <form name="ciuxjug" method="post"action="ciuxjugr.php">
-<select name="jugador">
-<option value="0">Seleccione:</option>
 <?php
 include 'config.php';
 $query = "SELECT * FROM `t_jugador` ORDER BY Jugador";
-if ($result = mysqli_query($conn, $query)) {
-    /* fetch associative array */
+($result = mysqli_query($conn, $query));
+?>
+<select name="idjugador" id="idjugador">
+<option value="0">Seleccione:</option>
+<?php
     while ($row = mysqli_fetch_array($result)) {
                      
     echo '<option type="int" value="'.$row["Id_jugador"].'">'.$row["Jugador"].'</option>';
+ 
 }
-  
 echo "</select>";
-}
+
+echo '<input type="hidden" name="jugador" id="jugador" value="'.$row["Jugador"].'">';
+
+
+
 ?>
 <br>
 <input type=submit value=Enviar>

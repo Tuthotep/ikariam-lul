@@ -13,17 +13,20 @@
     </header>
     <aside id="navi">
     <nav>
-     
+  
+   <br>
    <a href="./">Home</a><br>
    <br>
    <a href="./tab/tisla.php" target="frame">T.Islas</a><br>
    <a href="./tab/talianza.php" target="frame">T.Alianzas</a><br>
    <a href="./tab/tjugador.php" target="frame">T.Jugadores</a><br>
    <a href="./tab/tciudad.php" target="frame">T.Ciudades</a><br>
+   <!--
    <a href="./vis/vciudad.php" target="frame">V.Ciudades</a><br>
    <a href="./vis/visla.php" target="frame">V.Islas</a><br>
    <a href="./vis/vjugador.php" target="frame">V.Jugadores</a><br>
    <a href="./vis/vcompleta.php" target="frame">V.Completa</a><br>
+   -->
    <br>
    <a href="./ins/insertali1.php" target="frame">I.Alianza</a><br>
    <a href="./ins/insertjug1.php" target="frame">I.Jugador</a><br>
@@ -35,7 +38,7 @@
    <a href="./islxsec.php" target="frame">Islas X Sectores</a><br>
    <a href="./ciuxsecr.php" target="frame">Islas X </a><br>
    <br>
-   <a href="./mod/modif.php" target="frame">Modificaciones</a><br>
+    <!--<a href="./mod/modif.php" target="frame">Modificaciones</a><br>-->
    
     </nav>
     </aside>

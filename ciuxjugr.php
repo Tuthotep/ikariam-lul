@@ -6,12 +6,16 @@
 
 <body>
 <?php
+$jugid = $_POST['idjugador']; // Para select
 $jug = $_POST['jugador']; // Para select
+
+var_dump ($_POST);
+
 ?>
 
+// <?php echo "$jugid"; ?> //
 // <?php echo "$jug"; ?> //
-
-<h3>Ciudades del Jugador ID: <?php echo "$jug"; ?>.</h3>
+<h3>Ciudades del Jugador ID: <?php echo "$jugid"; ?>.</h3>
       <br>
 
 <table>
@@ -26,10 +30,11 @@ $jug = $_POST['jugador']; // Para select
 include 'config.php';
 
 
-$query = "SELECT * FROM `t_ciudad` WHERE `Idjugador` = '$jug' ORDER BY Ciudad";
+$query = "SELECT * FROM `t_ciudad` WHERE `Idjugador` = '$jugid' ORDER BY Ciudad";
 
 if ($result = mysqli_query($conn, $query)) {
-
+    $row_cnt = $result->num_rows;
+    echo "Total de islas mapeadas:$row_cnt<br><br>";
     while ($row = mysqli_fetch_array($result)) {
     
     echo "

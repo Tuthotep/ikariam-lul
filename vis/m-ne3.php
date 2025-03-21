@@ -35,13 +35,22 @@ echo"
     mysqli_free_result($results);
     mysqli_close($conn);
     ?>
-
-
+<table>
+  <tr style="color: black">
+    <td width='50' class="vacia">Vacia</td>
+    <td width='50' class="nolul">Sin Rep</td>
+    <td width='50' class="working">En tarea</td>
+    <td width='50' class="done">Hecha</td>
+    <td width='50' class="lul">LUL</td>
+  </tr>
+</table>
+<br>
 <h3>Mapa NE3</h3>
 <br>
 <?php
 include '../config.php';
 $queryi = "SELECT
+t_isla.Id_isla,
 t_isla.Isla
 FROM t_isla
 WHERE Idsector = 12";  
@@ -51,19 +60,22 @@ $dir = array();
 $cont = 0;
 while ($row = @mysqli_fetch_array($resulti)) {
    $dir[$cont] = $row['Isla'];
-   $cont++;
+   $cont++;?>
+   <!--  
+   <a href="../viewisla.php?isla=<?php echo $row["Isla"]; ?>">|<?php echo $row["Id_isla"] .'-'. $row["Isla"]?>|</a>
+    -->  
+   <?php
 }
 
-//print_r($resulti);
-  
-//echo $dir[0];
-//echo $dir[1];
-
-
+//--
+//echo "<br>";
+//echo "<br>";
+$row_cnt = $resulti->num_rows;
+echo "Hay $row_cnt islas en db";
+echo "<br>";
+echo "<br>";
+//--
 ?>
-
-
-
 
 <table style="text-align: center">
 <tr>

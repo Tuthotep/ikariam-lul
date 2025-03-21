@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<h3>Tabla Jugadores en la BD</h3>
+<h2>Tabla Jugadores en la BD</h2>
       <br>
 
 
@@ -27,7 +27,8 @@ $conn;
 $query = "SELECT * FROM `t_jugador` ORDER BY Idalianza";
 
 if ($result = mysqli_query($conn, $query)) {
-
+  $row_cnt = $result->num_rows;
+  echo "Total de jugadoes datados:$row_cnt<br><br>";
     /* fetch associative array */
     while ($row = mysqli_fetch_array($result)) {
 
