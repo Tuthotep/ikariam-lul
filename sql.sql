@@ -25,20 +25,17 @@ FROM `t_ciudad`
 =============================================================================================
 $sql = "SELECT * FROM `V_TOTAL` WHERE `id_x` BETWEEN 84 AND 99 AND `id_y` BETWEEN 84 AND 99";
 =============================================================================================
-SELECT
-    `t_ciudad`.`Ciudad`,`t_ciudad`.`Comentarios_ciu`,
-	`t_isla`.`Isla`, `t_isla`.`X`,`t_isla`.`Y`,`t_isla`.`Comentarios_isla`,`t_isla`.`last_update`,
-	`t_sector`.`Sector`,`t_sector`.`Comentarios_sector`,
-	`t_materia`.`Materia`,
-	`t_jugador`.`Jugador`,`t_jugador`.`Comentarios_jug`,
-	`t_alianza`.`Alianza`, `t_alianza`.`Code`, `t_alianza`.`Comentarios_ali`, `t_alianza`.`Aliado`
-	FROM `t_ciudad`
-		LEFT JOIN `t_isla` ON `t_ciudad`.`Idisla` = `t_isla`.`Id_isla`
-
-		LEFT JOIN `t_sector` ON `t_isla`.`Idsector` = `t_sector`.`Id_sector`
-		LEFT JOIN `t_materia` ON `t_isla`.`Idmateria` = `t_materia`.`id_materia`
-		LEFT JOIN `t_jugador` ON `t_ciudad`.`Idjugador` = `t_jugador`.`id_jugador`
-		LEFT JOIN `t_alianza` ON `t_jugador`.`Idalianza` = `t_alianza`.`id_alianza`;
+SELECT `t_ciudad`.`Ciudad`,`t_ciudad`.`Comentarios_ciu`, `t_isla`.`Isla`, `t_isla`.`X`,
+`t_isla`.`Y`,`t_isla`.`Comentarios_isl`, `t_sector`.`Sector`,`t_sector`.`Comentarios_sector`,
+ `t_materia`.`Materia`, `t_jugador`.`Jugador`,`t_jugador`.`Comentarios_jug`, 
+ `t_alianza`.`Alianza`, `t_alianza`.`Code`, `t_alianza`.`Comentarios_ali`,
+  `t_alianza`.`Aliado` 
+  FROM `t_ciudad` 
+  LEFT JOIN `t_isla` ON `t_ciudad`.`Idisla` = `t_isla`.`Id_isla` 
+  LEFT JOIN `t_sector` ON `t_isla`.`Idsector` = `t_sector`.`Id_sector` 
+  LEFT JOIN `t_materia` ON `t_isla`.`Idmateria` = `t_materia`.`id_materia` 
+  LEFT JOIN `t_jugador` ON `t_ciudad`.`Idjugador` = `t_jugador`.`id_jugador` 
+  LEFT JOIN `t_alianza` ON `t_jugador`.`Idalianza` = `t_alianza`.`id_alianza`
 =============================================================================================
 CREATE TABLE t_alianza (
     Id_alianza INT NOT NULL AUTO_INCREMENT,

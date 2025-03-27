@@ -100,27 +100,29 @@ echo "<br>";
 </tr>
 <tr>
 <td width='50' style='font-weight: bold;color:chartreuse;font-size:large'>17</td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[28]; ?>"><?php echo $dir[28]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[25]; ?>"><?php echo $dir[25]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
 <td width='50' style='font-weight: bold;color:chartreuse;font-size:large'>17</td>
 </tr>
 <tr>
 <td width='50' style='font-weight: bold;color:chartreuse;font-size:large'>18</td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[35]; ?>"><?php echo $dir[35]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
@@ -131,10 +133,8 @@ echo "<br>";
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
@@ -145,18 +145,18 @@ echo "<br>";
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[32]; ?>"><?php echo $dir[32]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[5]; ?>"><?php echo $dir[5]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[20]; ?>"><?php echo $dir[20]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[16]; ?>"><?php echo $dir[16]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[31]; ?>"><?php echo $dir[31]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[200]; ?>"><?php echo $dir[200]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold;color:chartreuse;font-size:large'>19</td>
@@ -254,15 +254,15 @@ echo "<br>";
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[17]; ?>"><?php echo $dir[17]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
-<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[0]; ?>"><?php echo $dir[0]; ?></a></td>     
-<td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[0]; ?>"><?php echo $dir[0]; ?></a></td>
+<td width='50' style='font-weight: bold'><a href="../viewisla.php?isla=<?php echo $dir[18]; ?>"><?php echo $dir[18]; ?></a></td>
 <td width='50' style='font-weight: bold'><img src="../img/mar.png"></td>
 <td width='50' style='font-weight: bold;color:chartreuse;font-size:large'>24</td>
 </tr>

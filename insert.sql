@@ -1,44 +1,21 @@
 /tutotep/Luislanus/-escorpio68-/TITUSAGAIN/elmaspi/HitMan/Espartaco/Toreto/matmax/yus2//
 /Tor/The new one/SprayPaint/Drakego/TNT666/Doble J/KAFO6963/dark killer/On The Aqueo/ginkgo//
-/Nahuel91/Turco-cba/_Cristian_/Qatar/matias1118/Egea/YMeLaPone/Darkseid/Mariuss/kus classic//
-Deffman/Sogeking/Matrix/Hares/Erica/Burbujo LUL/Thomas Shelby/FEMCO6917/Renee/Ricardo L//
-burzaquero/Alvaro18dsc/Ivar deshuesado/Abusador/MARVEL/
-INSERT INTO 't_ciudad' ('Id_ciudad', 'Ciudad', 'Comentarios_ciu', 'Idjugador', 'Idisla')
+/Nahuel91/Turco-cba/_Cristian_/Qatar/matias1118/Egea/YMeLaPone/Darkseid/Mariuss/Romeneia//
+/Deffman/Sogeking/Matrix/Hares/Erica/Burbujo LUL/Thomas Shelby/FEMCO6917/Renee/Ricardo L//
+/burzaquero/Alvaro18dsc/Ivar deshuesado/Abusador/MARVEL/kus classic/daom/Waly/Claypole/NeCrO//
+/BARBABLANCA/BARBANEGRA/froliver/Fabiano/X-MEN/NAZA_MAGNO/Dr Zactor/MAN/Angels Cat/Jason 62//
+Eternity Monic/marito OH/Angels Monic/Carlos97/charly stark/Mitai vale/
+
+INSERT INTO `t_ciudad` (`Id_ciudad`, `Ciudad`, `Comentarios_ciu`, `Idjugador`, `Idisla`)
 VALUES
 Ciudad-Idjugador-Id_isla
 (NULL, '', NULL, '', ''),
 (NULL, 'Mohan Poison', NULL, '165', '3'),
 -----------------------------------------------------------
-INSERT INTO 't_isla' ('Id_isla', 'Isla', 'X', 'Y', 'Comentarios_isl',
-'Idmateria', 'Idsector', 'Nivmateria', 'Nivbosque')
-VALUES
-(NULL, '', '', '', NULL, NULL, '', NULL, NULL),
-(NULL, 'Daraeos', '36', '50', NULL, NULL, '9', NULL, NULL),
+INSERT INTO `t_isla` (`Id_isla`, `Isla`, `X`, `Y`, `Comentarios_isl`, `Idmateria`, `Idsector`, `Nivmateria`, `Nivbosque`) VALUES
+(NULL, 'Beigios', '94', '76', NULL, NULL, '33', NULL, NULL),
 ===========================================================
-MAN-22/
-daom-53/
-Waly-35/
-Claypole-58/
-NeCrO-23/
 
-BARBABLANCA-56/
-BARBANEGRA-21/
-Angels Monic-60/
-Fabiano-41/
-X-MEN-45/
-
-NAZA_MAGNO-48/
-Dr Zactor-54/
-Romeneia-55/
-Angels Cat-57/
-Jason 62-59/
-
-Eternity Monic-62/
-marito OH-64/
-froliver-29/
-Carlos97-65/
-charly stark-63/
-Mitai vale-66
 
 ===========================================================
 ‖01|NO1|01/16-01/16‖‖02|NO2|17/32-01/16‖‖03|NO3|33/50-01/16‖
@@ -54,7 +31,3 @@ Mitai vale-66
 ‖28|SE1|51/67-51/67‖‖29|SE2|68/83-51/67‖‖30|SE3|84/100-51/67‖‖
 ‖31|SE4|51/67-68/83‖‖32|SE5|68/83-68/83‖‖33|SE6|84/100-68/83‖‖
 ‖34|SE7|51/67-84/100‖35|SE8|68/83-84/100‖36|SE9|84/100-84/100‖
-
-
-(NULL, 'Last Patrol', NULL, '46', '71')
-(NULL, 'Feder1973', NULL,'46','102')
